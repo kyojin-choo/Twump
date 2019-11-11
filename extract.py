@@ -26,18 +26,25 @@ def authorize():
 
     values = ["ACCESS_KEY", "ACCESS_SECRET", "CONSUMER_KEY", "CONSUMER_SECRET"]
 
+    # If the file (credentials.json) exists...
     if os.path.exists("credentials.json"):
-        # Opening file and reading in the json information.
+        # Open file and read in the json information.
         with open("credentials.json") as cred:
             data = json.load(cred)
             counter = 0
+            # Appending the values into secret dict.
             for key in secret:
                 secret[key] = data[values[counter]]
                 counter += 1
-            auth = tweepy.OAuthHandler(secret["CONSUMER_KEY"], secret["CONSUMER_SECRET"])
-            auth.set_access_token(secret["ACCESS_KEY"], secret["ACCESS_SECRET"])
-            pass
+        # Authenticating...
+        auth = tweepy.OAuthHandler(secret["CONSUMER_KEY"], secret["CONSUMER_SECRET"])
+        auth.set_access_token(secret["ACCESS_KEY"], secret["ACCESS_SECRET"])
+        api = tweepy.API(auth)
+        print("\n✧･ﾟ Authorized! ✧･ﾟ")
+        print("Logged in as: " + str(api.me().screen_name) + "\n")
+        return api
 
+    # If the file does not exist...
     else:
         # If the credentials.json is missing and the template exists... typo?
         if os.path.exists("credentials_template.json"):
@@ -53,18 +60,27 @@ def authorize():
                 print("Also, please rename the template file to 'credentials.json'")
                 sys.exit(1)
 
-
-def extract():
+def extract(api, username):
     """ extract(): Extracting data from Twitter
                    It will print out the messages it scrapes and append
                    them into a JSON file.
         Return:    N/A [None]
     """
-    for c in itertools.cycle([".", "..", "..."]):
-        print("Extracting" + c, flush=True)
+    user = api.get_user(username)
+
+    print(user.screen_name)
+    print(user.followers_count)
+    for friend in user.friends():
+        print(friend.screen_name)
+
+    counter = 0
+    print("Extracting", end="")
+    for c in itertools.cycle(["."]):
+        print(c, flush=True, end="")
         time.sleep(0.5)
-        if c == "...":
+        if counter == 3:
             break
+        counter+=1
 
 
 def main():
@@ -75,26 +91,28 @@ def main():
     valid = {"": "", "y": "y", "n": "n", "yes": "yes", "no": "no"}
     usr_input = "abc"
 
-    usr_input = input("Would you like to scrape (yes): ")
-
-    # Checking if input is valid.
+    # While the user would like to keep running the program...
     while usr_input not in valid:
-        usr_input = input("Invalid Input.\nWould you like to scrape (yes): ")
+        # Prompt
+        usr_input = input("Would you like to scrape (yes): ")
 
-    # Bye :(
-    if usr_input == "n" or usr_input == "no":
-        print("\nSee ya!")
-        sys.exit(0)
+        # Checking if input is valid.
+        while usr_input not in valid:
+            usr_input = input("Invalid Input.\nWould you like to scrape (yes): ")
 
-    # Lets go!
-    elif usr_input == "y" or usr_input == "":
-        authorize()
-        extract()
-        print("Done.\n")
-        return 0
+        # Bye :(
+        if usr_input == "n" or usr_input == "no":
+            break
+        # Lets go!
+        elif usr_input == "y" or usr_input == "":
+            api = authorize()                        # Checking users' consumer/api key.
+            usr_input = input("Enter the Twitter Account to scrape: ")
+            extract(api, usr_input)                  # Extract information wanted information
+            print("\n\nDone.\n")
+            return 0                                 # Fini
+        # This should not be possible. Literally. I think.
+        else:
+            raise Exception('This is not possible. How did you get here.')
 
-    # This should not be possible.
-    else:
-        raise Exception('This is not possible. How did you get here.')
 
 main()
