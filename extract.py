@@ -1,4 +1,4 @@
-# extract.py -*- scraping twitter -*-
+# extract.py - scraping twitter
 #
 # Author: Daniel Choo
 # Date:   10/28/19
@@ -6,10 +6,14 @@
 
 import os
 import sys
-import time
 import json
+import time
 import tweepy
-import itertools
+
+# Global array that contains valid responses from user.
+VALID = ["", "y", "n", "yes", "no"]
+YES = ["", "y", "yes"]
+NO = ["n", "no"]
 
 
 def authorize():
@@ -40,14 +44,14 @@ def authorize():
         try:
             auth = tweepy.OAuthHandler(secret["CONSUMER_KEY"], secret["CONSUMER_SECRET"])
         except tweepy.RaiseError:
-            print("\nError: Invalid consumer key!\n")
+            print("\nError: Invalid consumer key! Exiting Program.\n")
             sys.exit(-1)
 
         # Checking access_token...
         try:
             auth.set_access_token(secret["ACCESS_KEY"], secret["ACCESS_SECRET"])
         except tweepy.RaiseError:
-            print("Error: Invalid access token!\n")
+            print("\nError: Invalid access token! Exiting Program.\n")
             sys.exit(-1)
 
         # Success! Ensure we are running a JSON parser.
@@ -67,7 +71,7 @@ def authorize():
             # If the credentials.json and template do not exist, create it!
             with open("credentials_template.json", "w") as file:
                 file.write(json.dumps(secret, indent=4))
-                print("\nCreated new template.\nHowever, you are missing the necessary file to proceed")
+                print("\nCreated new credentials template.\nHowever, you are missing the necessary file to proceed.")
                 print("Please fill in the blanks with the necessary information.")
                 print("Also, please rename the template file to 'credentials.json'")
                 sys.exit(-1)
@@ -90,11 +94,15 @@ def getUser(api):
     # Attempt to see if the user exists on Twitter.
     while True:
         user_input = -1
-        username = input("\nEnter the Twitter Account to scrape: ")
+        print("\nNOTE: You can only scrape the most recent ~3,000 Tweets from a user.")
+        print("Input 'self' to scrape your own timeline | Input nothing to exit.\n")
+        username = str(input("Enter the Twitter Account to scrape: "))
         try:
             # Use streaming API on my own Twitter feed
             if username == "self":
                 print("myself")
+                sys.exit(0)
+            elif username == "":
                 sys.exit(0)
             # Use REST API on user's twitter timeline
             else:
@@ -109,7 +117,7 @@ def getUser(api):
             if user_input == 1:
                 continue
             else:
-                print("\nGoodbye!")
+                print("\nBye!")
                 sys.exit(-1)
         # If we successfully retrieve a user, leave the loop.
         else:
@@ -118,17 +126,26 @@ def getUser(api):
     return user
 
 
+def write(path, tweets):
+    """ write():   Writes the array of Tweets into a JSON formatted file.
+        Return:    N/A
+    """
+    try:
+        with open(path, "w+") as file:
+            file.write(json.dumps(tweets, indent=4, ensure_ascii=False))
+    except Exception as ex:
+        print("Whoopsie daisies, something went wrong!. This is the error: " + ex)
+
+   
 def extract(api, username):
     """ extract(): Extracting data from Twitter (REST API)
                    It will print out the messages it scrapes and append
                    them into a JSON file.
-        Return:    N/A [None]
+        Return:    N/A [None]: void function.
     """
     # Formatting file path; initializing variables.
     filename = username + ".json"
     path = "data/" + filename
-    print("\nThis is the path: " + path)
-    print("Retreiving Tweets from " + str(username) + "...\n")
 
     """  parser=JSONParser()" currently still faces a bug. It will demonstrate this
          error code. 'JSONParser' object has no attribute 'model_factory.'
@@ -140,54 +157,93 @@ def extract(api, username):
                I may come back and work on my own Twitter JSON parser, but that
                is now indefinitly postponed.
     """
+    # Initializing necessary variables.
     check = False
-    counter = 0
-    tweet = ""
+    date = ""
+    tweet_count = 0
+    tweets = []
+    combined = []
+
     # Printing message, but also boolean value flips if the file exists. Required for loading JSON.
+    # Note: You are not allowed to extract more than 3,000 tweets without a enterpise developer's account.
     if os.path.exists(path):
-        print("Path already exists.")
-        with open(path, "r") as file:
-            for line in file:
-                if "full_text" in line:
-                    line = line.strip()                       # Strips whitespace
-                    line = line.replace('"full_text": ', "")  # Removes "full_text: "
-                    tweet = line[:-1]                         # Removes comma at the end
-                    tweet = tweet[1:-1]                       # Removes the quotes
+        # Input checking
+        while True:
+            try:
+                exists = str(input("\nPath exists already. Would you like to scrape up to the last scraped tweet? (yes): "))
+                if exists in VALID:
                     break
-                else:
-                    counter+=1
-        check = True
-        counter = 0
+            except ValueError:
+                print("\nInvalid input. Proper responses: '', 'y', 'n', 'yes', 'no'\n")
+
+        # Lets scrape newer tweets!
+        if exists in YES:
+            print("\nScraping to the most recently obtained tweet.")
+            print("Most recent tweet: ", end='')
+
+            # Initializing relevant variables.
+            new_count = 0
+            to_id = 0
+
+            with open(path, "r") as file:
+                data = json.load(file)
+                to_id = data[0].get('id')
+                print(data[0].get('full_text'))
+
+            time.sleep(1)             # Give user some time to read the tweet.
+
+            # Time to scrape some new tweets!
+            for status in tweepy.Cursor(api.user_timeline, screen_name=username, tweet_mode="extended").items():
+                # If the curr ID = target ID, break.
+                try:
+                    if status.id == to_id:
+                        break
+                    else:
+                        print_tweet(status)
+                        tweets.append(status._json)
+                        new_count += 1
+                except Exception:
+                    print("Oopsies woopsies. Error block: lines 194-204")
+
+            combined = tweets + data
+            del data, tweets          # Rudimentary memory handling. Lists easily 40MB+.
+
+            write(path, combined)     # Writing to file.
+
+            # Pretty print; inquire user if they want to scrape again.
+            if new_count == 0:
+                print("\n\n✧･ﾟ@" + username + " has not tweeted any new tweets!･ﾟ･✧\n")
+                return
+            else:
+                print("\n\n✧･ﾟ@" + username + " has tweeted " + str(new_count) + " more tweets since the last scrape!･ﾟ･✧\n")
+                return
+
+        # Don't want to scrape new tweets :( Reprompt to scrape new user
+        else:
+            return
+
+    # If the file does not exist...
     else:
         print("Creating a new file.")
+        print("\nThis is the path: " + path)
+        print("Retreiving Tweets from @" + str(username) + "...\n")
 
-    # Automatically creates a new file!
-    with open(path, "a+") as file:
         # Iterating through user' tweets (REST)
         for status in tweepy.Cursor(api.user_timeline, screen_name=username, tweet_mode="extended").items():
-            # If the Tweet exists in our JSON file. No need to reappend it in. Break!
-            if check is True:
-                if status.full_text in tweet:
-                    print("Tweet already exists in JSON. Breaking.")
-                    break
-            print_tweet(status)
-
             # Unfortunately, we have to set ensure_ascii to False because it does 
             # not encode Emojis properly--which is a problem when comparing strings.
-            file.write(json.dumps(status._json, indent=4, ensure_ascii=False))
-            if counter >= 30:
-                break
-            else:
-                counter+=1
+            try:
+                print_tweet(status)
+                tweets.append(status._json)
+                tweet_count += 1
 
-#            counter = 0
-#            print("Extracting", end="")
-#            for c in itertools.cycle(["."]):
-#                print(c, flush=True, end="")
-#                time.sleep(0.5)
-#                if counter >= 3:
-#                     break
-#                counter+=1
+            except StopIteration:
+                break
+
+        # Write to path.
+        write(path, tweets)
+        del tweets
+        print("\n\n✧･ﾟAmount of Tweets Scraped: " + str(tweet_count) + " ･ﾟ･✧\n")
 
 
 def main():
@@ -195,8 +251,8 @@ def main():
         Return: sys.exit(0)
     """
     # Initializing variables.
-    valid = {"": "", "y": "y", "n": "n", "yes": "yes", "no": "no"}
-    usr_input = "abc"
+    iter_check = True
+    usr_input = ""
     logo = """.   . .    .  .    .  .    .  .    .  .    .  .    .  .    .  .
  .     .    .  .    .  .    .  .    ..S88888X88t. .    . . .      . .
   .    .   .  ;;   .       .       . .XX88888X8@@88@t%..:%88%   . .
@@ -227,28 +283,52 @@ def main():
     print(logo + "\n")
 
     # While the user would like to keep running the program...
-    while usr_input not in valid:
+    while True:
         # Prompt
-        usr_input = input("Would you like to scrape (yes): ")
+        try:
+            usr_input = str(input("Would you like to scrape (yes): "))
+            if usr_input in VALID:
+                break
 
-        # Checking if input is valid.
-        while usr_input not in valid:
-            usr_input = input("Invalid Input.\nWould you like to scrape (yes): ")
+        # Invalid input.
+        except ValueError:
+            print("\nInvalid input. Proper responses: '', 'y', 'n', 'yes', 'no'\n")
 
-        # Bye :(
-        if usr_input == "n" or usr_input == "no":
-            break
-        # Lets go!
-        elif usr_input == "y" or usr_input == "":
-            api = authorize()                        # Checking users' consumer/api key.
-#            print("Type 'self' to scrape your Twitter feed in live time.")
+    # Bye :(
+    if usr_input in NO:
+        print("\nBye :(")
+        return 0
+
+    # Lets go!
+    elif usr_input in YES:
+        api = authorize()                        # Checking users' consumer/api key.
+        while iter_check:
             username = getUser(api).screen_name
-            extract(api, username)                  # Extract information wanted information
-            print("\nDone.\n")
-            return 0                                 # Fini
-        # This should not be possible. Literally. I think.
-        else:
-            raise Exception('This is not possible. How did you get here.')
+            extract(api, username)               # Extract wanted info.
+            usr_input = "abc"
+
+            while True:
+                try:
+                    usr_input = str(input("\nWould you like to scrape again? (yes): "))
+                    if usr_input in VALID:
+                        break
+                except ValueError:
+                    print("\nThat was an invalid input. Proper responses: '', 'y', 'n', 'yes', 'no'\n")
+
+            if usr_input in YES:
+                os.system('cls||clear')
+                continue
+            elif usr_input in NO:
+                iter_check = False
+                print("\nBye!")
+            else:
+                raise RuntimeError("Should not be possible. Line 270. Breaking")
+
+        return 0                                 # Fini
+
+    # This should not be possible. Literally. I think.
+    else:
+        raise Exception('This is not possible. How did you get here.')
 
 
 main()
