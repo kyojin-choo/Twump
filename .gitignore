@@ -1,2 +1,3 @@
 # Ignore my personal credentials.
 credentials.json
+.DS_Store
