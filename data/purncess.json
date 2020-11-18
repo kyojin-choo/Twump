@@ -1,0 +1,2350 @@
+[
+    {
+        "created_at": "Sat Jul 05 04:34:25 +0000 2014",
+        "id": 485280513590972416,
+        "id_str": "485280513590972416",
+        "full_text": "Dog sitting! Aww http://t.co/fwg6gr6Cg4",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            39
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 485280513272205314,
+                    "id_str": "485280513272205314",
+                    "indices": [
+                        17,
+                        39
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BrwQDkICUAISOUV.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BrwQDkICUAISOUV.jpg",
+                    "url": "http://t.co/fwg6gr6Cg4",
+                    "display_url": "pic.twitter.com/fwg6gr6Cg4",
+                    "expanded_url": "https://twitter.com/purncess/status/485280513590972416/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 485280513272205314,
+                    "id_str": "485280513272205314",
+                    "indices": [
+                        17,
+                        39
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BrwQDkICUAISOUV.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BrwQDkICUAISOUV.jpg",
+                    "url": "http://t.co/fwg6gr6Cg4",
+                    "display_url": "pic.twitter.com/fwg6gr6Cg4",
+                    "expanded_url": "https://twitter.com/purncess/status/485280513590972416/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Apr 02 03:23:54 +0000 2014",
+        "id": 451198308526985216,
+        "id_str": "451198308526985216",
+        "full_text": "RT @HuffingtonPost: #GameOfThrones gets an honest trailer, and it says everything you've been thinking  http://t.co/dts1zkdTXw",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            126
+        ],
+        "entities": {
+            "hashtags": [
+                {
+                    "text": "GameOfThrones",
+                    "indices": [
+                        20,
+                        34
+                    ]
+                }
+            ],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "HuffingtonPost",
+                    "name": "HuffPost",
+                    "id": 854402779879804928,
+                    "id_str": "854402779879804928",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "http://t.co/dts1zkdTXw",
+                    "expanded_url": "http://huff.to/1pLwRT6",
+                    "display_url": "huff.to/1pLwRT6",
+                    "indices": [
+                        104,
+                        126
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Wed Apr 02 03:11:08 +0000 2014",
+            "id": 451195098500714496,
+            "id_str": "451195098500714496",
+            "full_text": "#GameOfThrones gets an honest trailer, and it says everything you've been thinking  http://t.co/dts1zkdTXw",
+            "truncated": false,
+            "display_text_range": [
+                0,
+                106
+            ],
+            "entities": {
+                "hashtags": [
+                    {
+                        "text": "GameOfThrones",
+                        "indices": [
+                            0,
+                            14
+                        ]
+                    }
+                ],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "http://t.co/dts1zkdTXw",
+                        "expanded_url": "http://huff.to/1pLwRT6",
+                        "display_url": "huff.to/1pLwRT6",
+                        "indices": [
+                            84,
+                            106
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.huffingtonpost.com\" rel=\"nofollow\">The Huffington Post</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 14511951,
+                "id_str": "14511951",
+                "name": "HuffPost",
+                "screen_name": "HuffPost",
+                "location": "",
+                "description": "At HuffPost, we put people first. We believe that real life is news, and news is personal. Read more: https://t.co/yRpf6zNyOL",
+                "url": "https://t.co/DLXRSufyhx",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/DLXRSufyhx",
+                                "expanded_url": "https://www.huffpost.com",
+                                "display_url": "huffpost.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/yRpf6zNyOL",
+                                "expanded_url": "http://huffp.st/BBP4iTW",
+                                "display_url": "huffp.st/BBP4iTW",
+                                "indices": [
+                                    102,
+                                    125
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 11480807,
+                "friends_count": 5675,
+                "listed_count": 84333,
+                "created_at": "Thu Apr 24 14:07:28 +0000 2008",
+                "favourites_count": 1229,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 553267,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": true,
+                "profile_background_color": "2E7060",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14511951/1572817597",
+                "profile_link_color": "0DBE98",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "E3E2DE",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 116,
+            "favorite_count": 134,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 116,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Aug 20 03:41:04 +0000 2013",
+        "id": 369665358489088000,
+        "id_str": "369665358489088000",
+        "full_text": "Me gusta margaritas! http://t.co/88pldfceAf",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            43
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 369665358103191553,
+                    "id_str": "369665358103191553",
+                    "indices": [
+                        21,
+                        43
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BSFQr0OCIAEGxpt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BSFQr0OCIAEGxpt.jpg",
+                    "url": "http://t.co/88pldfceAf",
+                    "display_url": "pic.twitter.com/88pldfceAf",
+                    "expanded_url": "https://twitter.com/purncess/status/369665358489088000/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 769,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 769,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 369665358103191553,
+                    "id_str": "369665358103191553",
+                    "indices": [
+                        21,
+                        43
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BSFQr0OCIAEGxpt.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BSFQr0OCIAEGxpt.jpg",
+                    "url": "http://t.co/88pldfceAf",
+                    "display_url": "pic.twitter.com/88pldfceAf",
+                    "expanded_url": "https://twitter.com/purncess/status/369665358489088000/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "large": {
+                            "w": 769,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 769,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 511,
+                            "h": 680,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "es"
+    },
+    {
+        "created_at": "Tue Aug 20 03:39:30 +0000 2013",
+        "id": 369664963469533184,
+        "id_str": "369664963469533184",
+        "full_text": "RT @HuffingtonPost: Bartender shoots, kills armed suspect that tried to rob bar http://t.co/vO5ffFz4t1",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            102
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "HuffingtonPost",
+                    "name": "HuffPost",
+                    "id": 854402779879804928,
+                    "id_str": "854402779879804928",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "http://t.co/vO5ffFz4t1",
+                    "expanded_url": "http://huff.to/1cZOi0l",
+                    "display_url": "huff.to/1cZOi0l",
+                    "indices": [
+                        80,
+                        102
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Mon Aug 19 23:31:01 +0000 2013",
+            "id": 369602434408382464,
+            "id_str": "369602434408382464",
+            "full_text": "Bartender shoots, kills armed suspect that tried to rob bar http://t.co/vO5ffFz4t1",
+            "truncated": false,
+            "display_text_range": [
+                0,
+                82
+            ],
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "http://t.co/vO5ffFz4t1",
+                        "expanded_url": "http://huff.to/1cZOi0l",
+                        "display_url": "huff.to/1cZOi0l",
+                        "indices": [
+                            60,
+                            82
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.huffingtonpost.com\" rel=\"nofollow\">The Huffington Post</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 14511951,
+                "id_str": "14511951",
+                "name": "HuffPost",
+                "screen_name": "HuffPost",
+                "location": "",
+                "description": "At HuffPost, we put people first. We believe that real life is news, and news is personal. Read more: https://t.co/yRpf6zNyOL",
+                "url": "https://t.co/DLXRSufyhx",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/DLXRSufyhx",
+                                "expanded_url": "https://www.huffpost.com",
+                                "display_url": "huffpost.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/yRpf6zNyOL",
+                                "expanded_url": "http://huffp.st/BBP4iTW",
+                                "display_url": "huffp.st/BBP4iTW",
+                                "indices": [
+                                    102,
+                                    125
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 11480807,
+                "friends_count": 5675,
+                "listed_count": 84333,
+                "created_at": "Thu Apr 24 14:07:28 +0000 2008",
+                "favourites_count": 1229,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 553267,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": true,
+                "profile_background_color": "2E7060",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14511951/1572817597",
+                "profile_link_color": "0DBE98",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "E3E2DE",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 13,
+            "favorite_count": 8,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 13,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Mon May 27 16:44:52 +0000 2013",
+        "id": 339059639658348545,
+        "id_str": "339059639658348545",
+        "full_text": "Had so much fun camping this weekend! Even got sunburned!",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            57
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": {
+            "type": "Point",
+            "coordinates": [
+                61.60971627,
+                -149.47849159
+            ]
+        },
+        "coordinates": {
+            "type": "Point",
+            "coordinates": [
+                -149.47849159,
+                61.60971627
+            ]
+        },
+        "place": {
+            "id": "ff8f6adfb9bf8a70",
+            "url": "https://api.twitter.com/1.1/geo/id/ff8f6adfb9bf8a70.json",
+            "place_type": "city",
+            "name": "Tanaina",
+            "full_name": "Tanaina, AK",
+            "country_code": "US",
+            "country": "United States",
+            "contained_within": [],
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -149.511619,
+                            61.599323
+                        ],
+                        [
+                            -149.352139,
+                            61.599323
+                        ],
+                        [
+                            -149.352139,
+                            61.728334
+                        ],
+                        [
+                            -149.511619,
+                            61.728334
+                        ]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun May 19 03:45:23 +0000 2013",
+        "id": 335964373824716801,
+        "id_str": "335964373824716801",
+        "full_text": "@GossipCop who cares?",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            21
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "GossipCop",
+                    "name": "Gossip Cop",
+                    "id": 25701904,
+                    "id_str": "25701904",
+                    "indices": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": 25701904,
+        "in_reply_to_user_id_str": "25701904",
+        "in_reply_to_screen_name": "GossipCop",
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": {
+            "type": "Point",
+            "coordinates": [
+                61.60975993,
+                -149.47871084
+            ]
+        },
+        "coordinates": {
+            "type": "Point",
+            "coordinates": [
+                -149.47871084,
+                61.60975993
+            ]
+        },
+        "place": {
+            "id": "ff8f6adfb9bf8a70",
+            "url": "https://api.twitter.com/1.1/geo/id/ff8f6adfb9bf8a70.json",
+            "place_type": "city",
+            "name": "Tanaina",
+            "full_name": "Tanaina, AK",
+            "country_code": "US",
+            "country": "United States",
+            "contained_within": [],
+            "bounding_box": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -149.511619,
+                            61.599323
+                        ],
+                        [
+                            -149.352139,
+                            61.599323
+                        ],
+                        [
+                            -149.352139,
+                            61.728334
+                        ],
+                        [
+                            -149.511619,
+                            61.728334
+                        ]
+                    ]
+                ]
+            },
+            "attributes": {}
+        },
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Thu Apr 18 02:43:28 +0000 2013",
+        "id": 324714767715536896,
+        "id_str": "324714767715536896",
+        "full_text": "RT @HuffingtonPost: California's segregated prison practices http://t.co/pCqQ9jni1b",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            83
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "HuffingtonPost",
+                    "name": "HuffPost",
+                    "id": 854402779879804928,
+                    "id_str": "854402779879804928",
+                    "indices": [
+                        3,
+                        18
+                    ]
+                }
+            ],
+            "urls": [
+                {
+                    "url": "http://t.co/pCqQ9jni1b",
+                    "expanded_url": "http://huff.lv/13i2XzW",
+                    "display_url": "huff.lv/13i2XzW",
+                    "indices": [
+                        61,
+                        83
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Thu Apr 18 01:05:04 +0000 2013",
+            "id": 324690007153582080,
+            "id_str": "324690007153582080",
+            "full_text": "California's segregated prison practices http://t.co/pCqQ9jni1b",
+            "truncated": false,
+            "display_text_range": [
+                0,
+                63
+            ],
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "user_mentions": [],
+                "urls": [
+                    {
+                        "url": "http://t.co/pCqQ9jni1b",
+                        "expanded_url": "http://huff.lv/13i2XzW",
+                        "display_url": "huff.lv/13i2XzW",
+                        "indices": [
+                            41,
+                            63
+                        ]
+                    }
+                ]
+            },
+            "source": "<a href=\"http://www.huffingtonpost.com\" rel=\"nofollow\">The Huffington Post</a>",
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 14511951,
+                "id_str": "14511951",
+                "name": "HuffPost",
+                "screen_name": "HuffPost",
+                "location": "",
+                "description": "At HuffPost, we put people first. We believe that real life is news, and news is personal. Read more: https://t.co/yRpf6zNyOL",
+                "url": "https://t.co/DLXRSufyhx",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/DLXRSufyhx",
+                                "expanded_url": "https://www.huffpost.com",
+                                "display_url": "huffpost.com",
+                                "indices": [
+                                    0,
+                                    23
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": [
+                            {
+                                "url": "https://t.co/yRpf6zNyOL",
+                                "expanded_url": "http://huffp.st/BBP4iTW",
+                                "display_url": "huffp.st/BBP4iTW",
+                                "indices": [
+                                    102,
+                                    125
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "protected": false,
+                "followers_count": 11480807,
+                "friends_count": 5675,
+                "listed_count": 84333,
+                "created_at": "Thu Apr 24 14:07:28 +0000 2008",
+                "favourites_count": 1229,
+                "utc_offset": null,
+                "time_zone": null,
+                "geo_enabled": true,
+                "verified": true,
+                "statuses_count": 553267,
+                "lang": null,
+                "contributors_enabled": false,
+                "is_translator": false,
+                "is_translation_enabled": true,
+                "profile_background_color": "2E7060",
+                "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+                "profile_background_tile": false,
+                "profile_image_url": "http://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_image_url_https": "https://pbs.twimg.com/profile_images/1191109446052859904/O_BYtHn8_normal.jpg",
+                "profile_banner_url": "https://pbs.twimg.com/profile_banners/14511951/1572817597",
+                "profile_link_color": "0DBE98",
+                "profile_sidebar_border_color": "FFFFFF",
+                "profile_sidebar_fill_color": "E3E2DE",
+                "profile_text_color": "000000",
+                "profile_use_background_image": true,
+                "has_extended_profile": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": false,
+                "follow_request_sent": false,
+                "notifications": false,
+                "translator_type": "none"
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "is_quote_status": false,
+            "retweet_count": 26,
+            "favorite_count": 8,
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "is_quote_status": false,
+        "retweet_count": 26,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Mar 27 05:54:47 +0000 2013",
+        "id": 316790382040055808,
+        "id_str": "316790382040055808",
+        "full_text": "Brr http://t.co/VO04ZtgHuT",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            26
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 316790382044250112,
+                    "id_str": "316790382044250112",
+                    "indices": [
+                        4,
+                        26
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BGV3LI4CAAA8EcE.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BGV3LI4CAAA8EcE.jpg",
+                    "url": "http://t.co/VO04ZtgHuT",
+                    "display_url": "pic.twitter.com/VO04ZtgHuT",
+                    "expanded_url": "https://twitter.com/purncess/status/316790382040055808/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 316790382044250112,
+                    "id_str": "316790382044250112",
+                    "indices": [
+                        4,
+                        26
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BGV3LI4CAAA8EcE.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BGV3LI4CAAA8EcE.jpg",
+                    "url": "http://t.co/VO04ZtgHuT",
+                    "display_url": "pic.twitter.com/VO04ZtgHuT",
+                    "expanded_url": "https://twitter.com/purncess/status/316790382040055808/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "medium": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "small": {
+                            "w": 510,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 768,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "und"
+    },
+    {
+        "created_at": "Mon Jan 21 22:09:06 +0000 2013",
+        "id": 293480364532461569,
+        "id_str": "293480364532461569",
+        "full_text": "@Jamalbye @kimkardashian If you don't like her then why are you following her on Twitter!? Lol",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            94
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "Jamalbye",
+                    "name": "TMZ",
+                    "id": 1338977221,
+                    "id_str": "1338977221",
+                    "indices": [
+                        0,
+                        9
+                    ]
+                },
+                {
+                    "screen_name": "KimKardashian",
+                    "name": "Kim Kardashian West",
+                    "id": 25365536,
+                    "id_str": "25365536",
+                    "indices": [
+                        10,
+                        24
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 293479156820348928,
+        "in_reply_to_status_id_str": "293479156820348928",
+        "in_reply_to_user_id": 470434187,
+        "in_reply_to_user_id_str": "470434187",
+        "in_reply_to_screen_name": "betchtbh",
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 1,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Jan 20 19:39:45 +0000 2013",
+        "id": 293080391403843584,
+        "id_str": "293080391403843584",
+        "full_text": "Winter hikes! http://t.co/W87QDOBP",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            34
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [
+                {
+                    "url": "http://t.co/W87QDOBP",
+                    "expanded_url": "http://instagr.am/p/Ut7XkjLrSa/",
+                    "display_url": "instagr.am/p/Ut7XkjLrSa/",
+                    "indices": [
+                        14,
+                        34
+                    ]
+                }
+            ]
+        },
+        "source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Jan 18 04:44:50 +0000 2013",
+        "id": 292130402485805056,
+        "id_str": "292130402485805056",
+        "full_text": "Going out! http://t.co/18vJJMkg",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            31
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": [],
+            "media": [
+                {
+                    "id": 292130402494193664,
+                    "id_str": "292130402494193664",
+                    "indices": [
+                        11,
+                        31
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BA3bDaTCIAA7SEj.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BA3bDaTCIAA7SEj.jpg",
+                    "url": "http://t.co/18vJJMkg",
+                    "display_url": "pic.twitter.com/18vJJMkg",
+                    "expanded_url": "https://twitter.com/purncess/status/292130402485805056/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "extended_entities": {
+            "media": [
+                {
+                    "id": 292130402494193664,
+                    "id_str": "292130402494193664",
+                    "indices": [
+                        11,
+                        31
+                    ],
+                    "media_url": "http://pbs.twimg.com/media/BA3bDaTCIAA7SEj.jpg",
+                    "media_url_https": "https://pbs.twimg.com/media/BA3bDaTCIAA7SEj.jpg",
+                    "url": "http://t.co/18vJJMkg",
+                    "display_url": "pic.twitter.com/18vJJMkg",
+                    "expanded_url": "https://twitter.com/purncess/status/292130402485805056/photo/1",
+                    "type": "photo",
+                    "sizes": {
+                        "thumb": {
+                            "w": 150,
+                            "h": 150,
+                            "resize": "crop"
+                        },
+                        "small": {
+                            "w": 680,
+                            "h": 680,
+                            "resize": "fit"
+                        },
+                        "large": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        },
+                        "medium": {
+                            "w": 1024,
+                            "h": 1024,
+                            "resize": "fit"
+                        }
+                    }
+                }
+            ]
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Dec 14 21:41:49 +0000 2012",
+        "id": 279702761464016897,
+        "id_str": "279702761464016897",
+        "full_text": "My heart is broken! Those poor children. My prayers are with their families.",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            76
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Fri Dec 14 21:40:41 +0000 2012",
+        "id": 279702474548465664,
+        "id_str": "279702474548465664",
+        "full_text": "@KhloeKardashian @thescottycunha really????? There IS a national tragedy going on right now!!!",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            94
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "khloekardashian",
+                    "name": "Khloé",
+                    "id": 32959253,
+                    "id_str": "32959253",
+                    "indices": [
+                        0,
+                        16
+                    ]
+                },
+                {
+                    "screen_name": "TheScottyCunha",
+                    "name": "Scotty Cunha",
+                    "id": 190804654,
+                    "id_str": "190804654",
+                    "indices": [
+                        17,
+                        32
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": 279688724739149825,
+        "in_reply_to_status_id_str": "279688724739149825",
+        "in_reply_to_user_id": 32959253,
+        "in_reply_to_user_id_str": "32959253",
+        "in_reply_to_screen_name": "khloekardashian",
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Dec 09 03:18:55 +0000 2012",
+        "id": 277613266656702465,
+        "id_str": "277613266656702465",
+        "full_text": "@KuntyeWest she didn't really say that, did she???",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            50
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [
+                {
+                    "screen_name": "kuntyewest",
+                    "name": "KUNTYEWEST",
+                    "id": 2783323392,
+                    "id_str": "2783323392",
+                    "indices": [
+                        0,
+                        11
+                    ]
+                }
+            ],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Dec 09 03:04:39 +0000 2012",
+        "id": 277609677892767744,
+        "id_str": "277609677892767744",
+        "full_text": "Have a really bad headache and I'm trying not to take Advil for it.",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            67
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Dec 02 19:14:23 +0000 2012",
+        "id": 275317003391221760,
+        "id_str": "275317003391221760",
+        "full_text": "Drinking coffee watching the sunrise in beautiful Wasilla, Alaska!",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            66
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Wed Apr 28 16:15:50 +0000 2010",
+        "id": 13014909733,
+        "id_str": "13014909733",
+        "full_text": "Wow!  Already Wednesday.  My son is playing golf today!",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            55
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Sun Jun 28 00:46:40 +0000 2009",
+        "id": 2365737844,
+        "id_str": "2365737844",
+        "full_text": "Just got back from seeing transformers.  I would not recommend this movie to anyone who has kids! Seriously!",
+        "truncated": false,
+        "display_text_range": [
+            0,
+            108
+        ],
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "user_mentions": [],
+            "urls": []
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 51605588,
+            "id_str": "51605588",
+            "name": "Sarah Stanifer",
+            "screen_name": "purncess",
+            "location": "",
+            "description": "",
+            "url": null,
+            "entities": {
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 6,
+            "friends_count": 23,
+            "listed_count": 0,
+            "created_at": "Sun Jun 28 00:45:37 +0000 2009",
+            "favourites_count": 10,
+            "utc_offset": null,
+            "time_zone": null,
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 20,
+            "lang": null,
+            "contributors_enabled": false,
+            "is_translator": false,
+            "is_translation_enabled": false,
+            "profile_background_color": "C0DEED",
+            "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+            "profile_background_tile": false,
+            "profile_image_url": "http://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_image_url_https": "https://pbs.twimg.com/profile_images/2921748399/59ee797915db874ecd74ca6493ea4af7_normal.jpeg",
+            "profile_link_color": "1DA1F2",
+            "profile_sidebar_border_color": "C0DEED",
+            "profile_sidebar_fill_color": "DDEEF6",
+            "profile_text_color": "333333",
+            "profile_use_background_image": true,
+            "has_extended_profile": false,
+            "default_profile": true,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false,
+            "translator_type": "none"
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "favorited": false,
+        "retweeted": false,
+        "lang": "en"
+    }
+]

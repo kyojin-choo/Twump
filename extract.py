@@ -10,6 +10,7 @@ import json
 import time
 import tweepy
 
+
 # Global array that contains valid responses from user.
 VALID = ["", "y", "n", "yes", "no"]
 YES = ["", "y", "yes"]
@@ -17,9 +18,9 @@ NO = ["n", "no"]
 
 
 def authorize():
-    """ authorize(): Reads in credentials JSON; verifies login.
-                     If the credentials files does not exist, create a
+    """ authorize(): Reads in credentials JSON; verifies login. If the credentials files does not exist, create a
                      template for the user.
+
         Return:      N/A (sys.exit if file is missing)
     """
     secret = {"ACCESS_KEY":      None,
@@ -74,11 +75,12 @@ def authorize():
                 print("\nCreated new credentials template.\nHowever, you are missing the necessary file to proceed.")
                 print("Please fill in the blanks with the necessary information.")
                 print("Also, please rename the template file to 'credentials.json'")
-                sys.exit(-1)
+            sys.exit(-1)
 
 
 def print_tweet(status):
     """ print_tweet(status): just prints the tweet text (void function)
+
         Return:              N/A (void)
     """
     if 'retweeted_status' in status._json:
@@ -128,6 +130,7 @@ def getUser(api):
 
 def write(path, tweets):
     """ write():   Writes the array of Tweets into a JSON formatted file.
+
         Return:    N/A
     """
     try:
