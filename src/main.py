@@ -4,7 +4,6 @@
 # Date:   11/17/20
 # URL:    https://www.github.com/kyoogoo/twump
 
-import os
 from extract import Extract
 from analysis import Analysis
 
@@ -15,6 +14,7 @@ def main():
     analysis = Analysis()
     menu_check = [1, 2, 3]
     usr_input = ""
+
     logo = """.   . .    .  .    .  .    .  .    .  .    .  .    .  .    .  .
  .     .    .  .    .  .    .  .    ..S88888X88t. .    . . .      . .
   .    .   .  ;;   .       .       . .XX88888X8@@88@t%..:%88%   . .
@@ -26,7 +26,7 @@ def main():
   .          :8 8888 888888@8 S88@8X8888888888888888888%88S .. .         .
      . .  .  %X@888888S888 8S@888888888S8 888 888 @ @8XS8S: .   .  . .
   .         .XX88888S8888X888 8S8 888888888888@888888S8888S    .   .    .
-    .  . .   ;8S8 8 @88 8 88X8%888%8S888888888 88888888888. . .  .    . 
+    .  . .   ;8S8 8 @88 8 88X8%888%8S888888888 88888888888. . .  .    .
   .        . :S @88888888888 888888888XS888888 8888 888 @      .    .
     . .  .   .:%8888888888S8888 888S88S8888 88888888888:    .  .     . .
   .        .   ;%8888 @8888 888888S888 8888888888888 S     .   . .
@@ -42,12 +42,13 @@ def main():
   .   .      ...%t   .t88888888; S.%::  .  .     .    .    .      .
     .   .  .  .        :t.:;;.. .  .         .      .   .    .  .
   .      .   . .  . .  ...   ..      . . .     .  .   .   .   .    .  """
+
     print(logo + "\n")
-    api = extract.authorize()                        # Checking users' consumer/api key.
+    api = extract.authorize()    # Checking users' consumer/api key.
 
     # While the user would like to keep running the program...
     while True:
-        # Prompt
+        # Prompt user
         try:
             usr_input = int(input("\nWhat would you like to do?\n1.) Scrape\n2.) Analysis\n3.) Exit\n\nEnter your choice: "))
             if usr_input in menu_check:
@@ -57,14 +58,15 @@ def main():
         except ValueError:
             print("\nInvalid input. Proper responses: 1, 2, 3 (integers)\n")
 
-        # Bye :(
+        # Extract tweets
         if usr_input == 1:
             extract.scrape(api)
 
-        # Lets go!
+        # Doing K-NN analysis.
         elif usr_input == 2:
             analysis.cleanup()
 
+        # Bye :(
         elif usr_input == 3:
             print("\nBye :(")
             return 0
