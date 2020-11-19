@@ -13,7 +13,8 @@ def main():
     extract = Extract()
     analysis = Analysis()
     menu_check = [1, 2, 3]
-    usr_input = ""
+    usr_input = -1
+    input_flag = False
 
     logo = """.   . .    .  .    .  .    .  .    .  .    .  .    .  .    .  .
  .     .    .  .    .  .    .  .    ..S88888X88t. .    . . .      . .
@@ -48,15 +49,17 @@ def main():
 
     # While the user would like to keep running the program...
     while True:
-        # Prompt user
-        try:
-            usr_input = int(input("\nWhat would you like to do?\n1.) Scrape\n2.) Analysis\n3.) Exit\n\nEnter your choice: "))
-            if usr_input in menu_check:
-                break
+        while not input_flag:
+            # Prompt user
+            try:
+                print("\nWhat would you like to do?\n1.) Scrape\n2.) Analysis\n3.) Exit\n", end="\r")
+                usr_input = int(input("\nEnter your choice: "))
+                if usr_input in menu_check:
+                    input_flag = True
 
-        # Invalid input.
-        except ValueError:
-            print("\nInvalid input. Proper responses: 1, 2, 3 (integers)\n")
+            # Invalid input.
+            except ValueError:
+                print("\nInvalid input. Proper responses: 1, 2, 3 (integers)")
 
         # Extract tweets
         if usr_input == 1:
@@ -64,7 +67,7 @@ def main():
 
         # Doing K-NN analysis.
         elif usr_input == 2:
-            analysis.cleanup()
+            analysis.menu()
 
         # Bye :(
         elif usr_input == 3:
@@ -74,6 +77,9 @@ def main():
         # This should not be possible. Literally. I think.
         else:
             raise Exception('This is not possible. How did you get here.')
+
+        # Gotta reset our flag.
+        input_flag = False
 
     return 0
 
